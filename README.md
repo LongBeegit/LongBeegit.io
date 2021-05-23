@@ -1,3 +1,46 @@
 # LongBeegit.io
-Web for learn and test
-Hello World
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title> My Second Page </title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	</head>
+	<body>
+		<i class="fab fa-battle-net"></i>
+		<i class="fab fa-battle-net fa-xs"></i>
+		<i class="fab fa-battle-net fa-md"></i>
+		<i class="fab fa-battle-net fa-lg"></i>
+		<i class="fab fa-battle-net fa-2x"></i>
+		<i class="fab fa-battle-net fa-3x"></i>
+		<i class="fab fa-battle-net fa-10x"></i>
+
+		<br>
+		<i class="fas fa-allergies fa-10x"></i>
+		<br>
+
+		<a href = "http://www.twitter.com" aria-label="Twitter"><i class="fab fa-twitter fa-5x"></i></a>
+		<a href = "http://www.pinterest.com" aria-label="pinterest"><i class="fab fa-pinterest fa-5x"></i></a>
+		<a href = "http://www.linkedin.com" aria-label="linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
+
+		<h1>Video</h1>
+		<video src = "media/omg.mp4" width = "500" autoplay controls loop muted >
+			Your browswer doesn't support the <code>video</code>
+		</video>
+
+		<h1>Audio</h1>
+		<audio src = "media/Shu_Shan.mp3" autoplay controls>
+			Shu Shan - Chân Long Giáng Thế
+		</audio>
+
+		<!-- other way to put audio in -->
+		<audio autoplay controls>
+		  <source src="media/Yue_Ya_Cheng.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+
+		<br>
+	</body>	
+	</html>
+
+
